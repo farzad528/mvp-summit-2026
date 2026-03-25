@@ -12,18 +12,7 @@ End-to-end sample showing how a single [Foundry IQ](https://learn.microsoft.com/
 ## Architecture
 
 ```
-┌─────────────────┐        ┌──────────────────────────┐
-│  Azure AI Search │◄──MCP──│  Foundry Agent Service   │
-│                  │        │  (gpt-4.1, MCPTool)      │
-│                  │        └──────────────────────────┘
-│  Knowledge Bases │        ┌──────────────────────────┐
-│  ├ mvp-summit    │◄──MCP──│  Jupyter notebook        │
-│  └ contoso-policy│        │  (AIProjectClient)       │
-│                  │        └──────────────────────────┘
-│  Knowledge Srcs  │        ┌──────────────────────────┐
-│  ├ mvp-summit-ks │        │  GitHub Copilot CLI      │
-│  └ contoso-ks    │        │  (KB as context)         │
-└─────────────────┘        └──────────────────────────┘
+![arch diagram](image.png)
 ```
 
 ## Prerequisites

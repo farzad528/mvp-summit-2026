@@ -1,0 +1,70 @@
+{
+  "campus": {
+    "name": "Microsoft Redmond Campus",
+    "event": "MVP Summit 2026",
+    "dates": "March 25-26, 2026"
+  },
+  "buildings": [
+    {
+      "name": "Building 33",
+      "tracks": ["AI"],
+      "rooms": ["Mt. Rainier", "Cascades", "Olympic"],
+      "notes": "Main AI track venue. Connected to Building 34 via skybridge.",
+      "cafeteria": "Cafe 33 — open 7:30 AM to 2:00 PM",
+      "parking": "Garage 33, enter from NE 36th St"
+    },
+    {
+      "name": "Building 25",
+      "tracks": ["Data"],
+      "rooms": ["Hood", "Adams"],
+      "notes": "Data track venue. 10 min walk from Building 33.",
+      "cafeteria": "Cafe 25 — open 7:00 AM to 3:00 PM. Best coffee on campus.",
+      "parking": "Lot 25, limited spaces"
+    },
+    {
+      "name": "Building 40",
+      "tracks": ["Security"],
+      "rooms": ["Denali", "Glacier"],
+      "notes": "Security track venue. Near the Connector shuttle stop.",
+      "cafeteria": "Cafe 40 — open 8:00 AM to 2:00 PM",
+      "parking": "Garage 40"
+    },
+    {
+      "name": "Building 18",
+      "tracks": ["Cloud"],
+      "rooms": ["Baker", "St. Helens"],
+      "notes": "Cloud track venue. Closest building to the Visitor Center.",
+      "cafeteria": "No cafeteria — use Cafe 16 next door (5 min walk)",
+      "parking": "Lot 18"
+    },
+    {
+      "name": "Building 20",
+      "tracks": ["DevTools"],
+      "rooms": ["Tahoma", "Glacier Peak"],
+      "notes": "DevTools track venue. Workshop room (Glacier Peak) has power at every seat.",
+      "cafeteria": "Cafe 20 — open 7:30 AM to 2:30 PM",
+      "parking": "Lot 20"
+    }
+  ],
+  "shuttle": {
+    "name": "Connector Shuttle",
+    "frequency": "Every 10 minutes",
+    "hours": "7:00 AM to 7:00 PM",
+    "stops": ["Building 18", "Building 20", "Building 25", "Building 33", "Building 40"],
+    "note": "Free for all badge holders. Look for the blue Connector signs."
+  },
+  "meals": {
+    "breakfast": "Available at all cafeterias from opening until 10:00 AM",
+    "lunch": "Served 11:30 AM to 1:30 PM at all cafeterias",
+    "dinner": "MVP Summit Welcome Dinner on March 25 at 6:00 PM in Building 92 Commons",
+    "tip": "Cafe 25 has the best espresso. Cafe 33 has the best lunch variety."
+  },
+  "wifi": {
+    "network": "MSFTGUEST",
+    "password": "No password required. Accept terms on captive portal."
+  },
+  "emergency": {
+    "security": "425-882-8080",
+    "medical": "Building 33 has a first aid station on Floor 1"
+  }
+}
